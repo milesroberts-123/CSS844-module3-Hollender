@@ -30,7 +30,12 @@ s00_HollenderImageAnalysis_v8.ipynb - Contains python code to pre-process point 
 * From this, identifies relevant branching point
 * Calculates vectors describing the two segments coming off of the branching point
 * Calculates angle between these vectors and reports out
-* 
+
+2021-4-16_2D_Branch_Angle_Estimation_JK_V2 - Jupyter notebook for estimating branch angles using branch/tip point objects from plantCV. Author: Joshua Kaste, with pre-processing code by Thilani Jayakody
+* An improved version of the above script that now:
+* Exports an excel spreadsheet with your angle results
+* Exports a reference image with sample names for ease of interpretation
+
 20210419_JK_Automated_2D_Branch_Angle_Estimator.ipynb - Jupyter notebook that builds on the 2021-4_16_2D_Branch_Angle_Estimation_JK
 notebook by automating the extraction of Arabidopsis branches from an initial input image. Author: Joshua Kaste, with plantCV preprocessing code from Thilani Jayakody
 * takes an input file of a picture of a blank piece of paper with green arabidopsis stems attached to it and segments these stems into individual images
