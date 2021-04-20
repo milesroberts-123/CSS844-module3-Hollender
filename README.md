@@ -17,6 +17,9 @@ s00_HollenderImageAnalysis_v8.ipynb - Contains python code to pre-process point 
 20210414_JK_Angle_Estimation_V2.ipynb - Jupyter Notebook for estimating branch angles from .txt MDS skeletons outputted by plantscan3d. Author: Joshua Kaste
 * same as above, except begins with code for loading in an Arabidopsis point cloud, segmenting the plant out, and then exporting it as an .asc file for processing in plantscan3D
 
+20210414_JK_Angle_Estimation_V3.ipynb - Jupyter Notebook for estimating branch angles from .txt MDS skeletons outputted by plantscan3d. Author: Joshua Kaste
+* added additional details and instructions to make easier to use
+
 20210415_JK_Attempting_Registration.ipynb - Jupyter notebook that demonstrates a first-pass attempt at global registration of Arabidopsis point clouds. Author: Joshua Kaste, with significant code from Miles Roberts
 * Uses a variant of Miles' procedure and DBSCAN to isolate arabidopsis point cloud from surroundings in an original .ply image (note: not automated, requires checking)
 * Does necessary pre-processing through the open3D library and then carries out RANSAC global registration + visualization of the result
