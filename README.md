@@ -40,3 +40,6 @@ s00_HollenderImageAnalysis_v8.ipynb - Contains python code to pre-process point 
 notebook by automating the extraction of Arabidopsis branches from an initial input image. Author: Joshua Kaste, with plantCV preprocessing code from Thilani Jayakody
 * takes an input file of a picture of a blank piece of paper with green arabidopsis stems attached to it and segments these stems into individual images
 * Uses methodology described in 2021-4-16_2D_Branch_Angle_Estimation_JK to calculate all branch angles and reports them out
+
+MetaphenotypeMeasurement.zip Authors: Elyse Vischulis and Kenia Segura Abá
+* Folder of code to gather overall measurements of plant topology from 3D Li-DAR scans
