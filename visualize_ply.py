@@ -1,6 +1,8 @@
 #!/usr/bin/python
 """
-Visualize all 3D point cloud files in .ply format using open3d within a directory
+Author: Kenia Segura Aba
+Description:
+Visualize all 3D point cloud files in .ply format using open3d within a directory and remove unwanted background.
 
 Import Information:
 Install open3d in a conda environment with the following command
