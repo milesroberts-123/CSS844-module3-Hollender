@@ -42,4 +42,6 @@ notebook by automating the extraction of Arabidopsis branches from an initial in
 * Uses methodology described in 2021-4-16_2D_Branch_Angle_Estimation_JK to calculate all branch angles and reports them out
 
 MetaphenotypeMeasurement.zip Authors: Elyse Vischulis and Kenia Segura Abá
-* Folder of code to gather overall measurements of plant topology from 3D Li-DAR scans
+* Folder of code to gather overall measurements of plant topology from 3D Li-DAR scans using MeshLab
+* The accompanying script visualize_ply.py is for cleaning up the 3d point cloud by removing unwanted background to facilitate measurement computation with MeshLab.
+* This method is for users who do not have a Windows machine or are not as familiar with coding, or want a simple method for computing general measurements such as plant height, branch length, surface area and volume.
